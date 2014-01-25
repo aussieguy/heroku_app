@@ -1,6 +1,9 @@
 HerokuApp::Application.routes.draw do
-  get "staticpages/home"
-  get "staticpages/help"
+  get "static_pages/home"
+  get "static_pages/help"
+  get "static_pages/about"
+  
+  
   resources :microposts
 
   resources :users
