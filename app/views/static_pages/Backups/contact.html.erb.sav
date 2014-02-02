@@ -1,0 +1,4 @@
+<% provide(:title, 'Sample Application | Contact') %>
+<h1>Contact</h1>
+<p>Contact details go here.
+</p>
